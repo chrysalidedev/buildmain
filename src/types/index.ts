@@ -105,4 +105,5 @@ export interface SiteConfig {
     customImageSrc: string | null; // slot to put an uploaded PNG/SVG if available
     alt: string;
   };
+  bannerImageSrc?: string | null;
 }

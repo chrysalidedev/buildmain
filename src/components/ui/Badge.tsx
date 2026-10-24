@@ -2,7 +2,7 @@ import React from 'react';
 
 interface BadgeProps {
   children: React.ReactNode;
-  variant?: 'amber' | 'emerald' | 'cyan' | 'neutral' | 'subtle';
+  variant?: 'purple' | 'violet' | 'amber' | 'emerald' | 'cyan' | 'neutral' | 'subtle';
   size?: 'sm' | 'md';
   className?: string;
   dot?: boolean;
@@ -10,7 +10,7 @@ interface BadgeProps {
 
 export const Badge: React.FC<BadgeProps> = ({
   children,
-  variant = 'amber',
+  variant = 'purple',
   size = 'md',
   className = '',
   dot = false,
@@ -21,6 +21,8 @@ export const Badge: React.FC<BadgeProps> = ({
   }[size];
 
   const variantClasses = {
+    purple: 'bg-purple-500/15 text-purple-300 border border-purple-500/30',
+    violet: 'bg-violet-500/15 text-violet-300 border border-violet-500/30',
     amber: 'bg-amber-500/10 text-amber-400 border border-amber-500/25',
     emerald: 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/25',
     cyan: 'bg-cyan-500/10 text-cyan-400 border border-cyan-500/25',
@@ -29,6 +31,8 @@ export const Badge: React.FC<BadgeProps> = ({
   }[variant];
 
   const dotColorClasses = {
+    purple: 'bg-purple-400 shadow-[0_0_8px_#A855F7] animate-pulse',
+    violet: 'bg-violet-400 shadow-[0_0_8px_#8B5CF6] animate-pulse',
     amber: 'bg-amber-400',
     emerald: 'bg-emerald-400 animate-pulse',
     cyan: 'bg-cyan-400',

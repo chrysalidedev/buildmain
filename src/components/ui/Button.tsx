@@ -28,7 +28,7 @@ export const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   // Base classes for consistent sizing, accessibility, and smooth interaction
-  const baseClasses = 'inline-flex items-center justify-center font-medium transition-all duration-200 select-none rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none cursor-pointer';
+  const baseClasses = 'inline-flex items-center justify-center font-medium transition-all duration-200 select-none rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-purple-400 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none cursor-pointer';
 
   const sizeClasses = {
     sm: 'text-xs px-3.5 py-2 gap-1.5',
@@ -37,9 +37,9 @@ export const Button: React.FC<ButtonProps> = ({
   }[size];
 
   const variantClasses = {
-    primary: 'bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-brand-950 font-semibold shadow-[0_4px_20px_-4px_rgba(245,158,11,0.4)] hover:shadow-[0_6px_25px_-2px_rgba(245,158,11,0.6)] hover:brightness-110 active:scale-[0.98]',
+    primary: 'bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 text-white font-semibold shadow-[0_4px_25px_-3px_rgba(147,51,234,0.45)] hover:shadow-[0_6px_30px_-2px_rgba(168,85,247,0.65)] hover:brightness-110 active:scale-[0.98]',
     secondary: 'bg-white/10 text-white hover:bg-white/15 border border-white/10 active:scale-[0.98]',
-    outline: 'border border-white/20 text-white hover:border-amber-400 hover:text-amber-300 hover:bg-amber-400/5 active:scale-[0.98]',
+    outline: 'border border-white/20 text-white hover:border-purple-400 hover:text-purple-300 hover:bg-purple-500/10 active:scale-[0.98]',
     ghost: 'text-slate-300 hover:text-white hover:bg-white/5 active:scale-[0.98]',
   }[variant];
 

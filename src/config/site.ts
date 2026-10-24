@@ -31,11 +31,11 @@ export const siteConfig: SiteConfig = {
   },
   siteUrl: 'https://buildmain.tech',
   logo: {
-    // Si vous disposez du fichier logo PNG/SVG haute définition, placez-le dans /public/images/logo.png
-    // et renseignez son chemin ici : '/images/logo.png'. Laissez null pour utiliser l'emblème SVG officiel intégré.
-    customImageSrc: null,
+    // Logo officiel Build-Main fourni par l'équipe
+    customImageSrc: '/images/logo.png',
     alt: 'Logo officiel Build-Main - Rendre la technologie accessible à tous',
   },
+  bannerImageSrc: '/images/brand-banner.png',
 };
 
 export const navigationLinks = [

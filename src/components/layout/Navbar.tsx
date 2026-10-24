@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
                 >
                   {link.label}
                   {isActive && (
-                    <span className="absolute bottom-0 left-3 right-3 h-[2px] bg-gradient-to-r from-amber-400 to-amber-500 rounded-full" />
+                    <span className="absolute bottom-0 left-3 right-3 h-[2px] bg-gradient-to-r from-purple-400 to-violet-500 rounded-full shadow-[0_0_8px_#A855F7]" />
                   )}
                 </Link>
               );
@@ -136,12 +136,12 @@ export const Navbar: React.FC = () => {
                     to={link.href}
                     className={`flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium transition-colors ${
                       isActive
-                        ? 'text-amber-400 bg-amber-400/10 font-semibold border border-amber-400/20'
+                        ? 'text-purple-300 bg-purple-500/15 font-semibold border border-purple-500/30'
                         : 'text-slate-200 hover:text-white hover:bg-white/5'
                     }`}
                   >
                     <span>{link.label}</span>
-                    <ArrowRight className={`w-4 h-4 ${isActive ? 'text-amber-400' : 'text-slate-500'}`} />
+                    <ArrowRight className={`w-4 h-4 ${isActive ? 'text-purple-400' : 'text-slate-500'}`} />
                   </Link>
                 );
               })}

@@ -3,7 +3,7 @@ import { Badge } from './Badge';
 
 interface SectionHeaderProps {
   badge?: string;
-  badgeVariant?: 'amber' | 'emerald' | 'cyan' | 'neutral';
+  badgeVariant?: 'purple' | 'violet' | 'amber' | 'emerald' | 'cyan' | 'neutral';
   title: string;
   highlightedWord?: string;
   subtitle?: string;
@@ -13,7 +13,7 @@ interface SectionHeaderProps {
 
 export const SectionHeader: React.FC<SectionHeaderProps> = ({
   badge,
-  badgeVariant = 'amber',
+  badgeVariant = 'purple',
   title,
   highlightedWord,
   subtitle,
@@ -35,7 +35,7 @@ export const SectionHeader: React.FC<SectionHeaderProps> = ({
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white leading-tight">
         {title}{' '}
         {highlightedWord && (
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-violet-400 to-indigo-400">
             {highlightedWord}
           </span>
         )}

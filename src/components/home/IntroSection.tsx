@@ -17,8 +17,8 @@ export const IntroSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Card 1: La Mission */}
-          <div className="p-7 rounded-2xl bg-[#0B101D]/70 border border-white/[0.08] relative overflow-hidden group hover:border-amber-400/30 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform">
+          <div className="p-7 rounded-2xl bg-[#0B101D]/70 border border-white/[0.08] relative overflow-hidden group hover:border-purple-400/30 transition-all duration-300">
+            <div className="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-6 group-hover:scale-110 transition-transform">
               <Target className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-white mb-3">
@@ -27,7 +27,7 @@ export const IntroSection: React.FC = () => {
             <p className="text-slate-300 text-sm leading-relaxed mb-4">
               Rendre la technologie accessible à tous à travers des solutions innovantes, robustes et adaptées aux réalités économiques et sociales locales.
             </p>
-            <div className="flex items-center gap-2 text-xs text-amber-400 font-medium">
+            <div className="flex items-center gap-2 text-xs text-purple-400 font-medium">
               <CheckCircle2 className="w-4 h-4" />
               <span>Démocratisation numérique</span>
             </div>

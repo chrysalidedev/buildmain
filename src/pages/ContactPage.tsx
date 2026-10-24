@@ -288,7 +288,7 @@ export const ContactPage: React.FC = () => {
                   Formulaire de contact & devis
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400 mb-8">
-                  Les champs marqués d'une astérisque (<span className="text-amber-400">*</span>) sont obligatoires.
+                  Les champs marqués d'une astérisque (<span className="text-purple-400">*</span>) sont obligatoires.
                 </p>
 
                 {/* Status Banners */}
@@ -342,7 +342,7 @@ export const ContactPage: React.FC = () => {
                   {/* Name Field */}
                   <div>
                     <label htmlFor="contact-name" className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                      Nom complet ou Civilité <span className="text-amber-400">*</span>
+                      Nom complet ou Civilité <span className="text-purple-400">*</span>
                     </label>
                     <input
                       id="contact-name"
@@ -355,7 +355,7 @@ export const ContactPage: React.FC = () => {
                       className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-1 transition-colors ${
                         errors.name
                           ? 'border-red-500 focus:ring-red-500'
-                          : 'border-white/[0.1] focus:border-amber-400 focus:ring-amber-400'
+                          : 'border-white/[0.1] focus:border-purple-400 focus:ring-purple-400'
                       }`}
                     />
                     {errors.name && <p className="text-xs text-red-400 mt-1">{errors.name}</p>}
@@ -365,7 +365,7 @@ export const ContactPage: React.FC = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
                       <label htmlFor="contact-email" className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                        Adresse e-mail <span className="text-amber-400">*</span>
+                        Adresse e-mail <span className="text-purple-400">*</span>
                       </label>
                       <input
                         id="contact-email"
@@ -378,7 +378,7 @@ export const ContactPage: React.FC = () => {
                         className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-1 transition-colors ${
                           errors.email
                             ? 'border-red-500 focus:ring-red-500'
-                            : 'border-white/[0.1] focus:border-amber-400 focus:ring-amber-400'
+                            : 'border-white/[0.1] focus:border-purple-400 focus:ring-purple-400'
                         }`}
                       />
                       {errors.email && <p className="text-xs text-red-400 mt-1">{errors.email}</p>}
@@ -419,7 +419,7 @@ export const ContactPage: React.FC = () => {
 
                     <div>
                       <label htmlFor="contact-service" className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                        Type de besoin <span className="text-amber-400">*</span>
+                        Type de besoin <span className="text-purple-400">*</span>
                       </label>
                       <select
                         id="contact-service"
@@ -443,7 +443,7 @@ export const ContactPage: React.FC = () => {
                   {/* Project Description */}
                   <div>
                     <label htmlFor="contact-message" className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                      Description de votre projet ou difficulté à résoudre <span className="text-amber-400">*</span>
+                      Description de votre projet ou difficulté à résoudre <span className="text-purple-400">*</span>
                     </label>
                     <textarea
                       id="contact-message"
@@ -456,7 +456,7 @@ export const ContactPage: React.FC = () => {
                       className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-1 transition-colors ${
                         errors.message
                           ? 'border-red-500 focus:ring-red-500'
-                          : 'border-white/[0.1] focus:border-amber-400 focus:ring-amber-400'
+                          : 'border-white/[0.1] focus:border-purple-400 focus:ring-purple-400'
                       }`}
                     />
                     {errors.message && <p className="text-xs text-red-400 mt-1">{errors.message}</p>}
@@ -473,7 +473,7 @@ export const ContactPage: React.FC = () => {
                         className="mt-1 w-4 h-4 rounded border-white/20 bg-white/5 text-amber-500 focus:ring-amber-400 focus:ring-offset-0"
                       />
                       <span className="text-xs text-slate-400 leading-normal">
-                        J'accepte que les données saisies soient utilisées par Build-Main pour me recontacter dans le cadre de ma demande. <span className="text-amber-400">*</span>
+                        J'accepte que les données saisies soient utilisées par Build-Main pour me recontacter dans le cadre de ma demande. <span className="text-purple-400">*</span>
                       </span>
                     </label>
                     {errors.consent && <p className="text-xs text-red-400 mt-1">{errors.consent}</p>}

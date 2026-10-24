@@ -26,7 +26,7 @@ export const ProductsSection: React.FC = () => {
         />
 
         {/* FLAGSHIP HERO CARD: BUILD-MEMBRES */}
-        <div className="mb-14 rounded-3xl bg-gradient-to-b from-[#0E1524] to-[#0A0E18] border border-amber-500/30 p-8 sm:p-10 lg:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.5),0_0_30px_rgba(245,158,11,0.12)] relative overflow-hidden">
+        <div className="mb-14 rounded-3xl bg-gradient-to-b from-[#0E1524] to-[#0A0E18] border border-purple-500/30 p-8 sm:p-10 lg:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.5),0_0_30px_rgba(168,85,247,0.18)] relative overflow-hidden">
           
           {/* Subtle badge on top right */}
           <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
@@ -49,7 +49,7 @@ export const ProductsSection: React.FC = () => {
                 {flagshipProduct.name}
               </h3>
               
-              <p className="text-base sm:text-lg text-amber-300 font-medium mb-5">
+              <p className="text-base sm:text-lg text-purple-300 font-medium mb-5">
                 {flagshipProduct.tagline}
               </p>
 

@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
               <Logo size="md" />
             </Link>
             
-            <p className="text-amber-400 font-medium text-sm mb-3">
+            <p className="text-purple-300 font-medium text-sm mb-3">
               « {siteConfig.slogan} »
             </p>
             
@@ -94,11 +94,11 @@ export const Footer: React.FC = () => {
             </h3>
             <ul className="space-y-3 text-xs sm:text-sm">
               <li className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
                 <span>{siteConfig.location.city}, {siteConfig.location.country}</span>
               </li>
               <li className="flex items-start gap-2.5">
-                <Mail className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <Mail className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
                 <a 
                   href={`mailto:${siteConfig.contact.emailPlaceholder}`}
                   className="hover:text-white transition-colors"
@@ -107,7 +107,7 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
-                <Phone className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <Phone className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
                 <span>{siteConfig.contact.phonePlaceholder}</span>
               </li>
             </ul>
@@ -115,7 +115,7 @@ export const Footer: React.FC = () => {
             <div className="mt-5 pt-4 border-t border-white/[0.08]">
               <Link
                 to="/contact"
-                className="text-xs font-semibold text-amber-400 hover:text-amber-300 inline-flex items-center gap-1 group"
+                className="text-xs font-semibold text-purple-400 hover:text-purple-300 inline-flex items-center gap-1 group"
               >
                 <span>Envoyer une demande de projet</span>
                 <span className="transition-transform group-hover:translate-x-1">→</span>

@@ -9,17 +9,27 @@ export default {
     extend: {
       colors: {
         brand: {
-          950: '#070A10',
-          900: '#0B0F19',
-          850: '#101624',
-          800: '#161F32',
-          700: '#23304A',
+          950: '#06070C',
+          900: '#0A0D16',
+          850: '#0F1422',
+          800: '#161E33',
+          700: '#232E4D',
           border: 'rgba(255, 255, 255, 0.08)',
-          'border-hover': 'rgba(255, 255, 255, 0.16)',
+          'border-hover': 'rgba(168, 85, 247, 0.35)',
           accent: {
-            light: '#FBBF24',
-            DEFAULT: '#F59E0B',
-            dark: '#D97706',
+            light: '#C084FC',
+            DEFAULT: '#8B5CF6',
+            dark: '#7C3AED',
+          },
+          purple: {
+            light: '#C084FC',
+            DEFAULT: '#A855F7',
+            dark: '#9333EA',
+          },
+          violet: {
+            light: '#A78BFA',
+            DEFAULT: '#8B5CF6',
+            dark: '#7C3AED',
           },
           emerald: {
             light: '#34D399',
@@ -38,9 +48,9 @@ export default {
         mono: ['"JetBrains Mono"', 'monospace'],
       },
       boxShadow: {
-        'glow-amber': '0 0 35px -5px rgba(245, 158, 11, 0.25)',
-        'glow-emerald': '0 0 35px -5px rgba(16, 185, 129, 0.25)',
-        'card': '0 8px 30px rgba(0, 0, 0, 0.4)',
+        'glow-purple': '0 0 35px -5px rgba(168, 85, 247, 0.4)',
+        'glow-violet': '0 0 45px -5px rgba(139, 92, 246, 0.45)',
+        'card': '0 8px 30px rgba(0, 0, 0, 0.5)',
       },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(circle at 50% 0%, var(--tw-gradient-stops))',

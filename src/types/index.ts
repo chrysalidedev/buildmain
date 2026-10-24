@@ -1,4 +1,4 @@
-export type ServiceType = 
+export type ServiceType =
   | 'logiciel'
   | 'saas'
   | 'agent-ia'
@@ -91,7 +91,7 @@ export interface SiteConfig {
   contact: {
     emailPlaceholder: string;
     phonePlaceholder: string;
-    whatsappNumber: string | null; // e.g. "+2250700000000" or null if not yet defined
+    whatsappNumber: string | null; // Ex "+2250700000000" or null if not yet defined
     officeHours: string;
   };
   socials: {

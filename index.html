@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070A10" />
+
+    <!-- Favicon & Brand Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Primary Meta Tags -->
+    <title>Build-Main | Rendre la technologie accessible à tous</title>
+    <meta name="title" content="Build-Main | Rendre la technologie accessible à tous" />
+    <meta name="description" content="Entreprise technologique ivoirienne et panafricaine. Développement de logiciels, solutions SaaS, agents d'intelligence artificielle et automatisation des processus métiers." />
+    <meta name="author" content="Build-Main" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://buildmain.tech/" />
+    <meta property="og:title" content="Build-Main | Rendre la technologie accessible à tous" />
+    <meta property="og:description" content="Développement logiciel, plateformes SaaS, agents IA et automatisation adaptés aux réalités économiques et sociales africaines." />
+    <meta property="og:image" content="/images/og-preview.png" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://buildmain.tech/" />
+    <meta property="twitter:title" content="Build-Main | Rendre la technologie accessible à tous" />
+    <meta property="twitter:description" content="Développement logiciel, plateformes SaaS, agents IA et automatisation adaptés aux réalités africaines." />
+    <meta property="twitter:image" content="/images/og-preview.png" />
+  </head>
+  <body class="bg-[#070A10] text-[#E2E8F0] min-h-screen selection:bg-amber-500/30 selection:text-amber-200">
+    <!-- Static Form Definition for Netlify Forms Bot Recognition (SPA Support) -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="organization" />
+      <input type="text" name="service" />
+      <textarea name="message"></textarea>
+      <input type="checkbox" name="consent" />
+    </form>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

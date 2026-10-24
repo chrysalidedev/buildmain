@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap URL - Replace with custom domain once finalized
+Sitemap: https://buildmain.tech/sitemap.xml
